@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`gif item component tests should evaluate against snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      src="https://media0.giphy.com/media/DuVRadBbaX6A8/giphy.gif?cid=071c1690ixpua1kwp4zpbhimm1ir5dkao6rvadzbf2twwg4r&rid=giphy.gif&ct=g"
+    />
+    <p>
+      My Title
+    </p>
+  </div>
+</div>
+`;
