@@ -27,7 +27,6 @@ describe('gif item component tests', () => {
 
         test('should show title in the component', () => { 
             render(<GifItem title={ title } url={ url } />);
-
             expect( screen.getByText( title ) );
-         })
+         });
     });
