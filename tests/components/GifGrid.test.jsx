@@ -38,6 +38,6 @@ describe('test component gifGrid', () => {
         });
         
         render(<GifGrid category={ category } />);
-        expect( screen.getAllByRole( 'img' ).length ).toBe( 2 )
-    })
-})
+        expect( screen.getAllByRole( 'img' ).length ).toBe( 2 );
+    });
+});
